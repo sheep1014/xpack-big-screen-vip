@@ -1,0 +1,25 @@
+{
+  "name": "XPACK VIP V2 Venue Adaptation",
+  "sourceCommit": "cd68861611b7f77117c5f52cb804067032977c3c",
+  "implementationCommit": "cd68861611b7f77117c5f52cb804067032977c3c",
+  "sourceBranch": "codex/xpack-vip-led-3456x2784",
+  "preparedDate": "2026-09-17",
+  "referenceCanvas": [
+    3456,
+    2784
+  ],
+  "adaptiveAspectRange": [
+    "16:9",
+    "1:1"
+  ],
+  "defaultEntry": "?venuePreset=vip&venueFit=auto",
+  "calibrationEntry": "?venuePreset=vip",
+  "cloudPublished": true,
+  "node": "24.14.0",
+  "npmCiTypecheckTestsBuild": "passed in independently extracted source",
+  "badgeCentering": "S/A/B/C verified in Chromium and WebKit",
+  "displayTextSelection": "Disabled throughout VIP screen; input editing preserved",
+  "resizeCompatibility": "Legacy mobile breakpoints excluded from VIP canvas",
+  "cloudRepository": "sheep1014/xpack-big-screen-vip",
+  "cloudURL": "https://sheep1014.github.io/xpack-big-screen-vip/"
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080a0c" />
+    <title>XPACK 沉浸卡流 智能組賞</title>
+    <script>
+      // The independent VIP site's plain URL opens the adaptive venue preset.
+      // An explicit preset query preserves the fixed calibration entry.
+      if (!new URLSearchParams(location.search).has('venuePreset')) {
+        const url = new URL(location.href);
+        url.searchParams.set('venuePreset', 'vip');
+        if (!url.searchParams.has('venueFit')) url.searchParams.set('venueFit', 'auto');
+        history.replaceState(null, '', url);
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-C-wfIuy4.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D0dEMCZy.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
