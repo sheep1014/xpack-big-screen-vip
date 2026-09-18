@@ -1,12 +1,12 @@
 {
-  "release": "vip-20260918-curved-globe",
+  "release": "vip-20260918-r2-economics-columns",
   "site": "https://sheep1014.github.io/xpack-big-screen-vip/",
   "defaultLanguage": "en",
   "languages": [
     "en",
     "zh-Hant"
   ],
-  "previousDeployment": "0781bbd3d1d2ea8f10cae7505a630e8543847d55",
+  "previousDeployment": "e708ec796406f123a3057845a711bc2caa7decb8",
   "sourceBaseCommit": "804cf8532507c0b9ebe287fb6ae3590ce733600a",
   "includesWorkingTreeChanges": true
 }
