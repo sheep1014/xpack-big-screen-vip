@@ -1,22 +1,21 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#080a0c" />
-    <title>XPACK 沉浸卡流 智能組賞</title>
+    <title>XPACK · Collectible Intelligence</title>
     <script>
-      // The independent VIP site's plain URL opens the adaptive venue preset.
-      // An explicit preset query preserves the fixed calibration entry.
+      // A plain URL opens the VIP adaptive presentation; explicit presets are preserved.
       if (!new URLSearchParams(location.search).has('venuePreset')) {
-        const url = new URL(location.href);
-        url.searchParams.set('venuePreset', 'vip');
-        if (!url.searchParams.has('venueFit')) url.searchParams.set('venueFit', 'auto');
-        history.replaceState(null, '', url);
+        const url = new URL(location.href)
+        url.searchParams.set('venuePreset', 'vip')
+        if (!url.searchParams.has('venueFit')) url.searchParams.set('venueFit', 'auto')
+        history.replaceState(null, '', url)
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-C-wfIuy4.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D0dEMCZy.css">
+    <script type="module" crossorigin src="./assets/index-9xS1Pv2h.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CL-Z3H-s.css">
   </head>
   <body>
     <div id="root"></div>
