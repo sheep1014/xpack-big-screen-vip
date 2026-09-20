@@ -1,5 +1,7 @@
 # XPACK VIP
 
-Published static build: https://sheep1014.github.io/xpack-big-screen-vip/
+Published static build: vip-20260920-ai-theme.
 
-Release: vip-20260918-r2-economics-columns. English default, Traditional Chinese optional.
+https://sheep1014.github.io/xpack-big-screen-vip/
+
+English is the default language. Traditional Chinese is available in the header. AI themes and card previews use local demonstration data.

@@ -1,12 +1,13 @@
 {
-  "release": "vip-20260918-r2-economics-columns",
+  "release": "vip-20260920-ai-theme",
   "site": "https://sheep1014.github.io/xpack-big-screen-vip/",
   "defaultLanguage": "en",
   "languages": [
     "en",
     "zh-Hant"
   ],
-  "previousDeployment": "e708ec796406f123a3057845a711bc2caa7decb8",
+  "previousDeployment": "4ed30697d88d5d4ac848b884d0635b6bdbba3195",
   "sourceBaseCommit": "804cf8532507c0b9ebe287fb6ae3590ce733600a",
-  "includesWorkingTreeChanges": true
+  "includesWorkingTreeChanges": true,
+  "sourceTreeSha256": "a71464618d5e301af550545011fb36ea3f5f88362537dbe527e961f8be7bd492"
 }
